@@ -9,6 +9,15 @@ float suma[10],resta[10],producto[10],division[10];
 
 //Mostrar por pantalla los elementos de la matriz.Genesi Simisterra
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 //Llenar la matriz suma con la suma de cana uno de los elementos de la matriz1 y la matriz2. Tigua Vivero
    for (c=0; c<10; c++)
     {
