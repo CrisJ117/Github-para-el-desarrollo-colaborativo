@@ -19,16 +19,12 @@ float suma[10],resta[10],producto[10],division[10];
 	
 	
 //Llenar la matriz suma con la suma de cana uno de los elementos de la matriz1 y la matriz2. Tigua Vivero
-   for (c=0; c<10; c++)
-    {
-    	cout<<"Ingrese una cantida: "<<endl;
-    	cin>>matriz1[c];
-	}
-for (c=0; c<10; c++)
-suma[c]= matriz1[c]+ matriz2[c];
-cout<<"El resultado de la suma de las matrizes es";
-for (c=0; c<10; c++)
-cout<<suma[c]<<" ";
+   for (int c = 0 ; c < 10 ; c ++)
+{
+suma [c] = matriz1 [c] + matriz2 [c];
+cout << suma [c] << "  " ;
+}
+   
 //Llenar la matriz resta con la resta de la matriz1 y la matriz2. Pierina Yepez
 
 
