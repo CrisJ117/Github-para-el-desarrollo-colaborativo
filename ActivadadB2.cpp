@@ -9,6 +9,17 @@ float suma[10],resta[10],producto[10],division[10];
 
 //El primer problema es resulto por Kevin Tapuy Cañola
 
+//suma de matriz echo por tigua vivero y 
+   for (c=0; c<10; c++)
+    {
+    	cout<<"Ingrese una cantida: "<<endl;
+    	cin>>matriz1[c];
+	}
+for (c=0; c<10; c++)
+suma[c]= matriz1[c]+ matriz2[c];
+cout<<"El resultado de la suma de las matrizes es";
+for (c=0; c<10; c++)
+cout<<suma[c]<<" ";
 
 return 0;
 
