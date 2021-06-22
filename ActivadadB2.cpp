@@ -58,7 +58,7 @@ case 3:
 	
 // Llenar la matriz producto con la multiplicacion de la matriz1 y la matriz2. Clarisa Stefania Ortiz
 case 4:
-           	cout<<"============================================="<<endl; 
+            cout<<"============================================="<<endl; 
 			cout << "<<EL PRODUCTO ENTRE LA MATRIZ1 Y MATRIZ2 ES>>"<< "\n";
             cout<<"============================================="<<endl; 
 
@@ -75,9 +75,10 @@ case 4:
                 system("pause>nul");              
                 break;
 // Llenar la matriz división con la división de cada elemento de la matriz1  con la matriz2. Kevin Antonio Tapuy
-	cout<<"============================================="<<endl; 
+case 5:	
+	     cout<<"============================================="<<endl; 
 			cout << "<<LA DIVISION ENTRE LA MATRIZ1 Y MATRIZ2 ES>>"<< "\n";
-            cout<<"============================================="<<endl; 
+             cout<<"============================================="<<endl; 
 
 	do {
 		division[c] = matriz1[c]/matriz2[c];
@@ -87,6 +88,24 @@ case 4:
 	while (c < 10);	
                 system("pause>nul");              
                 break;
+	case 6:
+            	  cout<<endl<<endl<<endl<<endl<<endl;
+   cout<<" ================================================"<<endl;
+   cout<<" >>                                            <<"<<endl;
+   cout<<" <<    TRABAJO REALIZADO POR:                  >>"<<endl;
+   cout<<" >>                                            <<"<<endl;
+   cout<<" <<                     * Genesi Simisterra    >>"<<endl;
+   cout<<" <<                     * Tigua Vivero         >>"<<endl;
+   cout<<" <<                     * Clarisa Stefania     >>"<<endl;
+   cout<<" <<                     * Kevin Antonio        >>"<<endl;
+   cout<<" >>                                            <<"<<endl;
+   cout<<" <<    Programa finalizado...                  >>"<<endl;
+   cout<<" ================================================"<<endl;
+
+            	repetir = false;
+            	break;
+        }        
+    } while (repetir);
 return 0;
 
 }
