@@ -2,7 +2,9 @@
 using namespace std;
 int main()
 {
+int opcion;
 int c=0;
+bool repetir = true;	
 float matriz1[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
 float matriz2[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
 float suma[10],resta[10],producto[10],division[10];
@@ -33,8 +35,8 @@ float suma[10],resta[10],producto[10],division[10];
 	c = 0;
                 system("pause>nul"); 
                 break;
-//Llenar la matriz resta con la resta de la matriz1 y la matriz2. Pierina Yepez
-
+//Llenar la matriz resta con la resta de la matriz1 y la matriz2. Clarisa Stefania Ortiz
+	
 
 	
 	
