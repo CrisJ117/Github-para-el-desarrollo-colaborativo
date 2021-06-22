@@ -36,7 +36,22 @@ float suma[10],resta[10],producto[10],division[10];
                 system("pause>nul"); 
                 break;
 //Llenar la matriz resta con la resta de la matriz1 y la matriz2. Clarisa Stefania Ortiz
+case 3:
+            cout<<"=========================================="<<endl; 
+			cout << "<<LA RESTA ENTRE LA MATRIZ1 Y MATRIZ2 ES>>"<< "\n";
+            cout<<"=========================================="<<endl; 
+
+	do {
+		resta[c] = matriz1[c]-matriz2[c];
+		cout<<resta[c]<<endl;
+		c++;
+	}
+	while (c < 10);	
 	
+	c = 0;              
+                
+                system("pause>nul");            
+                break;
 
 	
 	
