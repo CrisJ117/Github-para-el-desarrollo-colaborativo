@@ -40,14 +40,23 @@ float suma[10],resta[10],producto[10],division[10];
 	
 	
 // Llenar la matriz producto con la multiplicacion de la matriz1 y la matriz2. Clarisa Stefania Ortiz
+case 4:
+           	cout<<"============================================="<<endl; 
+			cout << "<<EL PRODUCTO ENTRE LA MATRIZ1 Y MATRIZ2 ES>>"<< "\n";
+            cout<<"============================================="<<endl; 
+
+
+	do {
+		producto[c] = matriz1[c]*matriz2[c];
+		cout<<producto[c]<<endl;
+		c++;
+	}
+	while (c < 10);	
 	
-	
-	
-	
-	
-	
-	
-	
+	c = 0;              
+                
+                system("pause>nul");              
+                break;
 // Llenar la matriz división con la división de cada elemento de la matriz1  con la matriz2. Kevin Antonio Tapuy
 	
 return 0;
