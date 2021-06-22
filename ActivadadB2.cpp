@@ -75,7 +75,18 @@ case 4:
                 system("pause>nul");              
                 break;
 // Llenar la matriz división con la división de cada elemento de la matriz1  con la matriz2. Kevin Antonio Tapuy
-	
+	cout<<"============================================="<<endl; 
+			cout << "<<LA DIVISION ENTRE LA MATRIZ1 Y MATRIZ2 ES>>"<< "\n";
+            cout<<"============================================="<<endl; 
+
+	do {
+		division[c] = matriz1[c]/matriz2[c];
+		cout<<division[c]<<endl;
+		c++;
+	}
+	while (c < 10);	
+                system("pause>nul");              
+                break;
 return 0;
 
 }
