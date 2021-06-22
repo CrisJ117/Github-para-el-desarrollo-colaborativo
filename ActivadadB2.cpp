@@ -10,13 +10,48 @@ float matriz2[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
 float suma[10],resta[10],producto[10],division[10];
 
 //Mostrar por pantalla los elementos de la matriz.Genesi Simisterra
+ do {
+        system("cls");
+ 
+           cout<<"       "<<endl;
+     cout<<"         ====================== MENU ===================="<<endl;
+     cout<<"         <<            1. VISUALIZACION DE MATRIZ      >>"<<endl;
+     cout<<"         <<            2. SUMA DE MATRIZ               >>"<<endl;
+     cout<<"         >>            3. RESTA DE MATRIZ              <<"<<endl;
+     cout<<"         <<            4. PRODUCTO DE MATRIZ           >>"<<endl;
+     cout<<"         >>            5. DIVISION DE MATRIZ           <<"<<endl;
+     cout<<"         >>            6. SALIR                        <<"<<endl;
+     cout<<"         ================================================"<<endl;
+        cout << "\nIngrese una opcion del menu: "<<endl;
+        cin >> opcion;
+        
+        switch (opcion) {
+            case 1:
+               cout<<"========================="<<endl;              
+               cout << "<<LA PRIMERA MATRIZ1 ES>>"<< "\n";
+               cout<<"========================="<<endl;  
+	do {	  
+		 cout<<matriz1[c]<<endl;
+		  c++;
+	}
 	
+	while (c < 10);	
 	
+	c = 0;
 	
+	           cout<<"========================="<<endl;              
+               cout << "<<LA SEGUNDA MATRIZ2 ES>>"<< "\n";
+               cout<<"========================="<<endl;  
+	do {	  
+		  cout<<matriz2[c]<<endl;
+		  c++;
+	}
 	
+	while (c < 10);	
 	
-	
-	
+	c = 0;
+                system("pause>nul");
+                break;	
 	
 	
 	
