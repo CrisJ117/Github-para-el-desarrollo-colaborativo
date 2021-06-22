@@ -19,12 +19,20 @@ float suma[10],resta[10],producto[10],division[10];
 	
 	
 //Llenar la matriz suma con la suma de cana uno de los elementos de la matriz1 y la matriz2. Tigua Vivero
-   for (int c = 0 ; c < 10 ; c ++)
-{
-suma [c] = matriz1 [c] + matriz2 [c];
-cout << suma [c] << "  " ;
-}
-   
+ case 2:
+            cout<<"========================================="<<endl; 
+			cout << "<<LA SUMA ENTRE LA MATRIZ1 Y MATRIZ2 ES>>"<< "\n";
+            cout<<"========================================="<<endl; 
+	do {
+		suma[c] = matriz1[c]+matriz2[c];
+		cout<<suma[c]<<endl;
+		c++;
+	}
+	while (c < 10);	
+	
+	c = 0;
+                system("pause>nul"); 
+                break;
 //Llenar la matriz resta con la resta de la matriz1 y la matriz2. Pierina Yepez
 
 
