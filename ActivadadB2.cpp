@@ -39,9 +39,9 @@ float suma[10],resta[10],producto[10],division[10];
 	
 	c = 0;
 	
-	           cout<<"========================="<<endl;              
-               cout << "<<LA SEGUNDA MATRIZ2 ES>>"<< "\n";
-               cout<<"========================="<<endl;  
+	       cout<<"========================="<<endl;              
+               cout  <<  "<< LA SEGUNDA MATRIZ2 ES >>" <<  "\ n" ;
+               cout << "=========================" << end;  
 	do {	  
 		  cout<<matriz2[c]<<endl;
 		  c++;
