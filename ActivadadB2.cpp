@@ -49,7 +49,14 @@ float suma[10],resta[10],producto[10],division[10];
 	
 	
 // Llenar la matriz división con la división de cada elemento de la matriz1  con la matriz2. Kevin Antonio Tapuy
-	
+cout << "La division del array1 y array2 es"<< "\n";
+
+	do {
+		division[c] = matriz1[c]/matriz2[c];
+		cout<<division[c]<<endl;
+		c++;
+	}
+	while (c < 10);	
 return 0;
 
 }
