@@ -65,6 +65,51 @@ int main()
 		break;
 		case 5:
 	//CUADO CALCULA Y MUESTRA LAS MADIA Y VARIANZA DE LAS DOS MATRICES
+	void mediayvarianza(float (*m1)[5], int cantidad, float (*m2)[5])
+{
+
+      cout<<"\t===========PROGRAMA PARA CALCULAR LA MEDIA Y VARIANZA==========\n";
+     cout<<"\nCuantos numeros son? ";
+     cin>>cantidad;
+     
+     sumatoria = new int[cantidad];// se hace un arreglo solo con los valores necesarios
+     
+     for(int i= 0;i < cantidad;i++)
+     {
+        cout<<"Escribe el valor "<<i+1<<":";//se pide los datos comenzando desde el primero
+        cin>>sumatoria[i];
+    }
+    
+    for(int e = 0;e < cantidad;e++)
+    {
+         media = media + sumatoria[e];//se hace la sumatoria y se guarda los valores
+    }
+    
+    media = media / cantidad;
+    
+    system("cls");
+    
+    cout<<"La Media es: ";
+    cout<<media<<endl;
+    
+    for(int k = 0;k < cantidad;k++)
+    {
+         varianza = varianza + (((sumatoria[k])-(media))*((sumatoria[k])-(media)));
+         
+    }
+    varianza = varianza / cantidad;
+    cout<<"la varianza es: ";
+    cout<<varianza<<endl;
+    cout<<"La desviacion estandar es +/-: ";
+    cout<<sqrt(varianza);
+    
+    delete[] sumatoria;
+     
+    system("PAUSE>nul");
+    return EXIT_SUCCESS;
+}
+
+}
 		mediayvarianza(matriz1,matriz2);
 		break;
 		}
