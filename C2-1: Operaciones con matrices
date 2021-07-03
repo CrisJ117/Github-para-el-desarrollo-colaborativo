@@ -44,6 +44,18 @@ int main()
 	switch(op){
 		case 1:
 	cout<<"ESTA FUNCION PERMITE INGRESAR EL VALOR A LAS MATRICES";
+	
+void ingresar() {
+	float matriz[5][5];
+	cout<<"Ingresar los valores de los arreglos o matrices";
+	float a, ingresar;
+    for(int i = 0; i < 5; i++){
+    	cout << "\n Ingresar valor " << i + 1 << "****:\n";
+    	for(int j = 0; j < 5; j++){
+	        cout << "\n posicion " << i + 1 << "****:\n";
+	        cin >> a;
+	        matriz[i][j] = a;
+		}
 		ingresar(matriz1,matriz2);
 		mostrar(matriz1);
 		mostrar(matriz2);
