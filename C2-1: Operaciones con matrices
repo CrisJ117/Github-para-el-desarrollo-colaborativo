@@ -8,6 +8,23 @@
 using namespace std;
 #include "colaborador1.h"     // EN ESTE ARCHIVO VA LA FUNCION DE imprimir()
 #include "colaborador2.h"     // EN ESTE ARCHIVO VA LA FUNCION DE sumar()
+
+//inicializacion de la matris c.
+for(int i=0; i<k; ++i)
+for (int j=0; j<n; ++j)
+     c[i] [j] =0;
+
+//generamos la matris c.
+ for (int=0; i<k; ++i)
+    for (int j=0; j<=n; ++j)
+    {
+	
+         for (int z=0; z<=m; ++z)
+          C[i][j] += A[i][z] * B[z][j];
+    }
+return 0;
+}
+
 #include "colaborador3.h"     // EN ESTE ARCHIVO VA LA FUNCION DE restar()
 #include "colaborador4.h"     // EN ESTE ARCHIVO VA LA FUNCION DE dividir()
 #include "colaborador5.h"     // EN ESTE ARCHIVO VA LA FUNCION DE multipicar()
