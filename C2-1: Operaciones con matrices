@@ -71,6 +71,20 @@ void ingresar() {
 		mostrar(resultado);
 		break;
 		case 4:
+void transpuesta(float (*m1)[5], float (*r)[5])
+{ 
+cout<<"Obtener la transpuesta de una matriz\n"; 
+
+for(int m=0;m<5;m++){
+    for(int n=0;n<5;n++){
+    
+       r[n][m]=m1[n][m];
+    
+cout<<r[n][m]<<" ";
+     }
+    cout<<"\n"; 
+} 
+}
 	// ESTA FUNCION CALCULA LA TRANSPUEST DE LA PRIMERA MATRIZ
 		transpuesta(matriz1,resultado);
 		mostrar(resultado);
