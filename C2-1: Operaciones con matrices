@@ -62,22 +62,22 @@ void ingresar() {
 		break;
 	        case 2:
 	// ESTA FUNCION PERMITE CALCULAR EL PRODUCTO ENTRE DOS MATRICES.
-	//inicializacion de la matris c.
-for(int i=0; i<k; ++i)
-for (int j=0; j<n; ++j)
-     c[i] [j] =0;
+cout<<"	Obtener el producto de dos matrices ";
+// inicializacion de la matris c.
+for(int i=0; i<5; ++i){
 
-//generamos la matris c.
- for (int=0; i<k; ++i)
-    for (int j=0; j<=n; ++j)
-    {
-	
-         for (int z=0; z<=m; ++z)
-          C[i][j] += A[i][z] * B[z][j];
+for(int j=0; j<5; ++j){
+      r[i] [j] = 0;
     }
-return 0;
 }
-		producto(matriz1,matriz2,resultado);
+// generamos la matris c.
+ for(int i=0; i<5; ++ i){
+    for(int j=0; j<=5; ++j){
+        for(int z=0; z<5; ++z)
+          r[i][j] += m1[i][z] * m2[z][j];
+        }
+	
+}		producto(matriz1,matriz2,resultado);
 		mostrar(resultado);
 		break;
 		case 3:
